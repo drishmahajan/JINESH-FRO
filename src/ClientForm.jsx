@@ -21,7 +21,7 @@ export default function ClientForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("https://jinesh.onrender.com/api/client", {
+    const res = await fetch("https://jinesh-2.onrender.com/api/client", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
